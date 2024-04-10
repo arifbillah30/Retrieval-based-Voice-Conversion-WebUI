@@ -2,11 +2,11 @@ joblib>=1.1.0
 numba
 numpy
 scipy
-librosa==0.9.1
+librosa>=0.9.1
 llvmlite
 fairseq
 faiss-cpu
-gradio==3.34.0
+gradio>=3.34.0
 Cython
 pydub>=0.25.1
 soundfile>=0.12.1
@@ -41,8 +41,8 @@ httpx
 onnxruntime; sys_platform == 'darwin'
 onnxruntime-gpu; sys_platform != 'darwin'
 torchcrepe==0.0.20
-fastapi==0.88
+fastapi>=0.88
 torchfcpe
-ffmpy==0.3.1
+ffmpy>=0.3.1
 python-dotenv>=1.0.0
 av
